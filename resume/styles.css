@@ -1,0 +1,18 @@
+.header{
+    text-align: center; 
+    background-color: lightgray;
+    padding-bottom: 10px;
+  
+}
+h1{ 
+    margin-top: 0px;
+}
+body{
+    margin: 0px;
+    font-family: Arial;
+}
+.container {
+margin-left: 10%;
+margin-right: 10%;
+margin-top:1%;
+}

@@ -1,0 +1,128 @@
+.box{
+    background-color:black; 
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 8px;
+    
+}
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 0px;
+    font-family: arial;
+    padding-bottom: 5px;
+
+
+}
+
+body{
+    margin: 0px;
+    background-color: gray;
+   
+}
+/* for box with the form in it*/
+.box2{
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+/*for the images and text being called*/
+.box3{
+    background-color: white;
+    padding-right: 3px;
+    padding-left: 5px;
+    padding-top: 10px;
+    display: inline-block;
+    width: 170px;
+    margin-right: 10px;
+    word-wrap: break-word;
+    height: 120px;
+    overflow-y: scroll;
+    position: relative;
+
+}
+
+
+
+h3{
+    padding-top: 4%;
+    margin-left: 3%;
+    font-family: arial;
+    font-weight: 700;
+}
+
+#container{
+    height: 100%;
+    margin-left: 10%;
+    margin-top: 12%;
+    
+    
+}
+
+
+form{
+    margin-left: 3%;
+    
+}
+
+
+
+/* Creating x in the corner of box3*/
+
+a{
+    position: absolute;
+    left: 96%;
+    top: 10px;
+    font-family: arial;
+    
+}
+.arial{
+    font-family: arial;
+    font-size: 16px
+    
+}
+
+
+/* From here on this is only for the Profile page*/
+.box4{
+    background-color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-bottom: 20px;
+}
+
+
+#name{
+    position: relative;
+    height: 100%;
+    
+    margin-top: -15px;
+}
+#andrewImage{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-left: 3%;
+    margin-top: -15px;
+
+}
+#bio{
+    position: relative;
+    height: 100%;
+    
+    margin-top: -15px;
+}
+
+
+
+
+p{
+    margin-left: 3%
+}
+h2{
+    font-family: arial;
+    margin-left: 3%;
+}
+
