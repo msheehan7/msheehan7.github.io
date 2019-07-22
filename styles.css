@@ -1,0 +1,120 @@
+body, html{
+    height: 100%;
+    margin:0;
+   
+}
+/*This is box for top of page*/
+.back{
+    background-image: url("https://storage.needpix.com/rsynced_images/black-background-1958574_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    margin-top: 0;
+    padding-top: 300px;
+    font-family: poiret One;
+    text-align: center;
+    font-weight: 900px;
+    font-size: 70px;
+    color: white;
+    
+}
+/*for header*/
+hr{
+    border: 3px solid white;
+}
+
+h3{
+    
+    padding-bottom: 1px;
+    padding-top: 4%;
+    font-size: 30px;
+    display: inline
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 600px;
+    
+    
+}
+/*all of these are styling the top page*/
+.home{
+    margin-left: 34.75%;
+}
+.about{
+    margin-left: 7%;
+}
+.creations{
+    margin-left: 7%;
+}
+/*Styles the text on the about page*/
+.aboutText{
+    color: white;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 15%;
+    font-size: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    padding-bottom: 600px;
+    line-height:170%;
+}
+#creationHold{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+
+
+
+
+
+/*holds the image on the creation page*/
+
+
+
+
+.tagramSpacing{
+margin-top: 70px;
+margin-left: 29.5%;
+padding-bottom: 30px;
+}
+.tagramTitle{
+    margin-top: 60px;
+}
+/*Holds the text on the creation page*/
+
+    
+
+
+
+.creationTitle{
+    font-size: 30px;
+    color: white;
+    text-align:center
+}
+
+u{
+    text-decoration: overline underline;
+ }
+
+ .creationText{
+     font-size: 20px;
+     color: white;
+     text-align: center;
+ }
+
+ .generalSpacing{
+     display: block;
+     margin-top: 150px;
+ }
