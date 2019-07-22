@@ -141,3 +141,10 @@ u{
      display: block;
      margin-top: 150px;
  }
+
+ /*Padding change for the about page "creations Page"*/
+ .creation{
+     margin-top:-300px;
+     margin-left: 0vw;
+     padding-bottom: 20px;
+ }
