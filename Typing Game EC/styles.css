@@ -1,0 +1,14 @@
+#container {
+    position: relative;
+    height: 100%;
+ 
+}
+h1{
+    background-image: linear-gradient(to right, rgb(243, 198, 0), orange 50%,rgb(255, 115, 0) 75%, rgb(255, 68, 0));
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+body{
+    background-image: linear-gradient(to right, rgb(29, 188, 228), rgb(54, 132, 221) 25%,rgb(25, 84, 211) 50%, rgb(59, 75, 218) 75%, rgb(24, 43, 211));
+}
