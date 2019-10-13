@@ -1,0 +1,52 @@
+body {
+    background: white;
+    color: white;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.header {
+    background: #033860;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 2%;
+    text-align: center;
+}
+.upperlink {
+    float: right;
+    padding-right: 2%;
+    color: white;
+}
+h1 {
+    margin: 0px;
+    font-size: 50px;
+    padding-left: 1%;
+}
+.linkbox{
+    background-color: white;
+    color : lightgrey;
+    margin-left: 10%;
+    margin-right: 10%;
+    height:30px;
+    padding: 10px;
+    font-size: 20px;
+}
+.drop {
+    background-color: lightgray;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute ;
+    left:0px;
+ }
+.btn-outline-success {
+    color: white;
+    border-color: white;
+}
+    .btn-outline-success:hover {
+        background-color: white;
+        color: black;
+    }

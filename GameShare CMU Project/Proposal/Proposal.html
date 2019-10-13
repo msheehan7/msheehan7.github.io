@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GamePage</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:400,600,700&display=swap" rel="stylesheet">
+        <link href="Proposal.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+<!--- START NAV -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #033860">
+        <a class="navbar-brand"  href="file:///C:/Users/mshee/OneDrive/Desktop/GameShare%20CMU%20Project/index.html"> 
+            <img src="https://i.ibb.co/tPy2nKQ/newLogo.png" width="150" height="50" class="d-inline-block align-top">  
+        </a>
+        <a class="navbar-brand" href="file:///C:/Users/mshee/OneDrive/Desktop/GameShare%20CMU%20Project/index.html">
+            <b>GameShare</b>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+<!-- navbar links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">Trade</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/mshee/OneDrive/Desktop/GameShare%20CMU%20Project/inventory.html">Inventory</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#">Subscribe</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+          <ul class="navbar-nav mr-auto" style="padding-left: 9%;">
+                <li class="nav-item" style="padding-right: 2%;">
+                        <a class="nav-link" href="file:///C:/Users/mshee/OneDrive/Desktop/GameShare%20CMU%20Project/login.html">Login</a>
+                </li>
+          </ul>
+        </div>
+      </nav>
+<!--- END NAV -->
+
+<h1>Choose a game from you inventory to see what others want to trade for your games</h1>
+<div id="gamePageInventory"></div>
+
+<!-- end game information -->
+<!-- script tags-->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-auth.js"></script>
+
+
+
+<script src="Proposal.js"></script>
+<!-- end script tags-->
+    </body>
+</html>

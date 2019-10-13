@@ -1,0 +1,87 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0px;
+}
+.loginBox{
+    width: 40%;
+    height: 400px;
+    padding: 20px;
+    /* This is to make the div in the center */
+    margin: 4%;
+    border: 5px solid #033860;
+    background-color: white;
+    color: black;
+    border-radius: 15px 50px;
+    float:right;
+}
+.loginBox input{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    padding: 5px ;
+    width:90%;
+    float:left;
+
+}
+.logoutBox{
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+    background: lightpink;
+    /* This is to make the div in the center */
+    margin: 150px auto;
+    border: 5px solid #033860;
+    background-color: white;
+    color: black;
+    border-radius: 15px 50px;
+}
+
+#signUpBox{
+    width: 40%;
+    height: 400px;
+    padding: 20px;
+    /* This is to make the div in the center */
+    float:left;
+    border: 5px solid #033860;
+    background-color: white;
+    color: black;
+    border-radius: 15px 50px;
+    margin: 4%;
+}
+#signUpBox input{
+    margin-bottom: 20px;
+    padding: 5px ;
+    margin-top: 15px;
+    width:90%;
+    float:left;
+}
+.header {
+    background: #033860;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 2%;
+    text-align: center;
+}
+.profileLink {
+    float: right;
+    padding-right: 2%;
+    color: white;
+}
+
+#closedEye, #closedEye2 {
+    width: 20px;
+    margin-top:76px;
+    margin-left: 5px;
+}
+#SignUpButton {
+    border-radius: 12px;
+    margin-top: 10px;
+}
+#loginButton{
+    border-radius: 12px;
+    margin-top: 10px;
+}
+#logoutButton{
+     border-radius: 12px;
+     margin-bottom: 20px;
+}

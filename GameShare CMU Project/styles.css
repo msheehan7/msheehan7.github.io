@@ -1,0 +1,121 @@
+/* for inventory */
+
+body {
+    background: white;
+    color: white;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;;
+}
+
+.header {
+    background: #033860;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 2%;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 50px;
+    padding-left: 1%;
+}
+
+.upperlink {
+    float: right;
+    padding-right: 2%;
+    color: white;
+}
+
+/* container one */
+.container1 {
+    padding: 2% 2% 2% 2%;
+    text-align: justify;
+}
+    /* form div */
+    .formSection {
+        padding: 2% 2% 2% 2%;
+        text-align: center;
+    }
+    /* container */
+    #inventory {
+        text-align: center;
+        padding-bottom: 2%;
+    }
+    #gameForm {
+        width: 350px;
+        display: inline-block;
+        border: 5px solid #033860;
+        background-color: white;
+        color: black;
+        border-radius: 15px 50px;
+    }
+        input[type=text] {
+            transition: width 0.4s ease-in-out;
+            border-radius: 25px;
+        }
+            input[type=text]:focus {
+                border: 2px solid #033860;
+               
+            }
+            input[type=text]:hover {
+                width: 150px;
+            }
+
+        input[type=submit]{
+            background-color: #033860;
+            border: none;
+            color: white;
+            padding: 7px 7px;
+            margin: 7px 7px;
+            cursor: pointer;
+            border-radius: 15px 50px;
+        }
+
+/* container two */
+#container2 {
+        margin-top: 5%;
+        margin-left: 3%;
+        margin-right: 3%;
+        align-content: center;
+}
+    #games {
+        border-style: outset;
+        border-width: 5px;
+    }
+    
+    .gameSection {
+        background-color: #033860;
+        color: white;
+        height: 250px;
+        width: 250px;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        display: inline-block;  
+        margin: 20px 20px 20px 20px;
+        border-radius: 15px;
+    }
+        .gamePicture {
+            height: 250px;
+            width: 150px;
+            float: right;
+            padding-left: 1%;
+            border-radius: 15px;
+        }
+        .gameFormInfo {
+            height: 150px;
+            width: 85px;
+            float: left;
+            padding-left: 1%;
+        }
+.btn-outline-success {
+    color: white;
+    border-color: white;
+}
+    .btn-outline-success:hover {
+        background-color: white;
+        color: black;
+    }
